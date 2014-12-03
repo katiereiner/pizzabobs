@@ -36,8 +36,9 @@ header nav ul li{
 }
 
 header nav {
-	float:right;
-	margin-top: -6%;
+	position:absolute;
+	left:40%;
+	margin-top:-60px;
 }
 
 
@@ -101,6 +102,29 @@ form {
 	position:relative;
 	top:-250px;
 }
+
+#schedule {
+	background-color: white;
+	width:50%;
+	text-align:center;
+ 	position:relative;
+ 	left:15%;
+ 	margin-top:50px;
+ 	margin-bottom:50px;
+ 	font-family: 'Chewy', cursive;
+ 	padding-bottom:40px;
+ 	padding-top:40px;
+}
+
+#schedule div {
+}
+
+#schedule h2 {
+	color:red;
+}
+
+
+
 
 
 
