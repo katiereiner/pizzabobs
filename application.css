@@ -105,15 +105,16 @@ form {
 
 #schedule {
 	background-color: white;
-	width:50%;
+	width:40%;
 	text-align:center;
  	position:relative;
- 	left:15%;
+ 	left:22%;
  	margin-top:50px;
  	margin-bottom:50px;
  	font-family: 'Chewy', cursive;
  	padding-bottom:40px;
  	padding-top:40px;
+ 	border-radius:25px;
 }
 
 #schedule div {
