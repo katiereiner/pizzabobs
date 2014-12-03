@@ -18,13 +18,9 @@
 		<div id = "restaurantinfo">
 			<h2>Sign up for our newsletter!</h2>
 			<form id="one" name = "first" method = "POST" action = "form.php">
-			First name:
-			<input type="text" name="firstname" placeholder="First Name" style= "width: 300px;height: 20px;">
-			<br><br>
-			Last name:
-			<input type="text" name="lastname" placeholder="Last Name" style= "width: 300px;height: 20px;"><br><br>
-			Email:
-			<input type="email" name="email" placeholder="E-mail (me@me.com)" required style= "width: 300px;height: 20px;"><br><br>
+			<input type="text" name="firstname" placeholder="First Name" style= "width: 300px;height: 40px;"><br><br>
+			<input type="text" name="lastname" placeholder="Last Name" style= "width: 300px;height: 40px;"><br><br>
+			<input type="email" name="email" placeholder="E-mail (me@me.com)" required style= "width: 300px;height: 40px;"><br><br>
 			<input type = "submit" id = "submit"><br><br>
 			</form>
 			<img id="pizza1" src="cartoon.png" alt="pizza">
