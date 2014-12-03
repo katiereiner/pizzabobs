@@ -16,17 +16,19 @@
 
 		</div>
 		<div id = "restaurantinfo">
-			Sign up for our newsletter!
+			<h2>Sign up for our newsletter!</h2>
 			<form id="one" name = "first" method = "POST" action = "form.php">
-			First name:<br>
-			<input type="text" name="firstname">
-			<br>
-			Last name:<br>
-			<input type="text" name="lastname"><br>
-			Email:<br>
-			<input type="email" name="email" required><br>
-			<input type = "submit" id = "submit"><br>
+			First name:
+			<input type="text" name="firstname" placeholder="First Name" style= "width: 300px;height: 20px;">
+			<br><br>
+			Last name:
+			<input type="text" name="lastname" placeholder="Last Name" style= "width: 300px;height: 20px;"><br><br>
+			Email:
+			<input type="email" name="email" placeholder="E-mail (me@me.com)" required style= "width: 300px;height: 20px;"><br><br>
+			<input type = "submit" id = "submit"><br><br>
 			</form>
+			<img id="pizza1" src="cartoon.png" alt="pizza">
+			<img id="pizza2" src="cartoon.png" alt="pizza">
 		</div>
 	</div>
 </body>
